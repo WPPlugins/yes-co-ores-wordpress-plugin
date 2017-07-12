@@ -1,0 +1,1 @@
+define("svzsolutions/generic/Debug",[],function(){dojo.declare("svzsolutions.generic.Debug",null,{constructor:function(){},log:function(o,e){if("undefined"!=typeof console)switch(e){case"error":console.error(o);break;default:console.log(o)}}})});

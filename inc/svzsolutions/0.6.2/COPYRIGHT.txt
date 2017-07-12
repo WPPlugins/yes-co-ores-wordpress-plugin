@@ -1,0 +1,4 @@
+/**
+ * Copyright (c) 2010, SVZ Solutions All Rights Reserved.
+ * Available via BSD license, see license file included for details. 
+ */

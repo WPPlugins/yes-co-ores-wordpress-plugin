@@ -1,0 +1,307 @@
+/**
+ * Use this file to set your custom styling
+ */
+
+/* Fix WordPress theme messing up the images */
+.map-holder img {
+max-width: 9999999px!important;
+}
+
+/* BEGIN MESSAGES */
+
+.sg-message-holder {
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+
+  .sg-error {
+  background-color: #F1E5E5;
+  border: 1px solid #F1E5E5;
+  }
+
+  .sg-message-holder p {
+  font-weight: bold;
+  padding: 5px;
+  }
+
+  input {
+  border: 1px solid #C4C4C4;
+  }
+
+  .yl-error {
+  border: 1px solid #993233;
+  background: url('http://ajax.googleapis.com/ajax/libs/dojo/1.4/dijit/themes/tundra/images/warning.png') no-repeat top right;
+  }
+
+/* END MESSAGES */
+
+/* BEGIN CUSTOM SVZ MAPS MARKERS */
+
+.sg-marker {
+background: transparent none no-repeat top left;
+cursor: pointer;
+text-align: center;
+background-image: url('http://labs.google.com/ridefinder/images/mm_20_blue.png');
+width: 12px;
+height: 20px;
+}
+
+  .sg-marker-cluster-size-1 {
+  background-image: url('../img/cluster-size-1.png');
+  width: 53px;
+  height: 52px;
+  }
+
+  .sg-marker-list-size-1 {
+  background-image: url('../img/list-size-1.png');
+  width: 53px;
+  height: 52px;
+  }
+
+    .sg-marker-cluster-size-1 .sg-label,
+    .sg-marker-list-size-1 .sg-label {
+    padding: 21px 0 0 0;
+    }
+
+  .sg-marker-cluster-size-2 {
+  background-image: url('../img/cluster-size-2.png');
+  width: 56px;
+  height: 55px;
+  }
+
+  .sg-marker-list-size-2 {
+  background-image: url('../img/list-size-2.png');
+  width: 56px;
+  height: 55px;
+  }
+
+    .sg-marker-cluster-size-2 .sg-label,
+    .sg-marker-list-size-2 .sg-label {
+   padding: 22px 0 0 0;
+   }
+
+  .sg-marker-cluster-size-3,
+  .sg-marker-cluster-size-4,
+  .sg-marker-cluster-size-5 {
+  background-image: url('../img/cluster-size-3.png');
+  width: 66px;
+  height: 65px;
+  }
+
+  .sg-marker-list-size-3,
+  .sg-marker-list-size-4,
+  .sg-marker-list-size-5 {
+  background-image: url('../img/list-size-3.png');
+  width: 66px;
+  height: 65px;
+  }
+
+    .sg-marker-cluster-size-3 .sg-label,
+    .sg-marker-cluster-size-4 .sg-label,
+    .sg-marker-cluster-size-5 .sg-label,
+    .sg-marker-list-size-3 .sg-label,
+    .sg-marker-list-size-4 .sg-label,
+    .sg-marker-list-size-5 .sg-label {
+    padding: 27px 0 0 0;
+    }
+
+  .sg-marker-cluster .sg-label,
+  .sg-marker-list .sg-label {
+  color: #000;
+  }
+
+	.sg-marker-type1 {
+	background-image: url('http://labs.google.com/ridefinder/images/mm_20_red.png');
+	width: 12px;
+	height: 20px;
+	}
+
+	.sg-marker-type2 {
+	background-image: url('http://labs.google.com/ridefinder/images/mm_20_yellow.png');
+	width: 12px;
+	height: 20px;
+	}
+
+	.sg-marker-type3 {
+	background-image: url('http://labs.google.com/ridefinder/images/mm_20_blue.png');
+	width: 12px;
+	height: 20px;
+	}
+
+	.sg-marker-type4 {
+	background-image: url('http://labs.google.com/ridefinder/images/mm_20_green.png');
+	width: 12px;
+	height: 20px;
+	}
+
+	.sg-marker-type5 {
+	background-image: url('http://labs.google.com/ridefinder/images/mm_20_brown.png');
+	width: 12px;
+	height: 20px;
+	}
+
+
+/* END CUSTOM SVZ MAPS MARKERS */
+
+/* BEGIN SVZ GOOGLE MAPS INFO WINDOW */
+
+	
+.sg-info-window-content-holder {
+overflow: hidden;
+}
+	
+.sg-info-window-content,
+.sg-info-window-content.list {
+/*width: 600px;*/
+}
+
+ .sg-component-list-holder {
+ border: 1px solid #000;
+ width: 110px;
+ margin-right: 10px;
+ float: left;
+ height: 362px;
+ overflow: auto;
+ padding: 4px;
+ }
+
+   .sg-component-list-holder {
+   }
+
+   .sg-component-list-holder a img {
+   border: 0;
+   }
+
+ .sg-info-window-content-header-holder {
+ overflow: hidden;
+ }
+
+   .sg-info-window-content-header-holder .main-image {
+   float: left;
+   width: 175px;
+   height: 75px;
+   margin: 0 10px 10px 0;
+   }
+
+  .sg-component-tab-links-holder {
+  margin: 20px 0;
+  border-bottom: 1px solid #000;
+  height: 16px;
+  overflow: hidden;
+  }
+
+    .sg-component-tab-links-holder ul {
+    list-style-type: none;
+    }
+
+    .sg-component-tab-links-holder ul li {
+    float: left;
+    }
+
+      .sg-component-tab-links-holder a {
+      font-size: 1.2em;
+      display: block;
+      margin: 0 20px 0 0;
+      color: #cc6600;
+      text-decoration: none;
+      }
+
+        .sg-component-tab-links-holder a:hover {
+        color: #0f0f0f;
+        text-decoration: underline;
+        }
+
+    .sg-component-tab-links-holder .active {
+    color: #CCC;
+    }
+
+
+  .sg-component-tab-contents-holder {
+  position: relative;
+  padding: 0 0 20px 0;
+  height: 200px;
+  overflow: auto;
+  overflow-x: hidden;
+  }
+
+   .type-type2 .sg-component-tab-contents-holder {
+   height: 100px;
+   }
+
+    .sg-component-tab-content-holder ul {
+    list-style-type: none;
+    }
+
+    .sg-component-tab-content-holder a {
+    font-size: 1.2em;
+    color: #cc6600;
+    text-decoration: none;
+    padding: 0 0 10px 0;
+    }
+
+      .sg-component-tab-content-holder a:hover {
+      color: #0f0f0f;
+      text-decoration: underline;
+      }
+
+    .sg-component-tab-content-holder {
+    display: none;
+    }
+
+      .sg-component-tab-content-holder p {
+      margin-bottom: 10px;
+      }
+
+    .sg-component-tab-content-holder.active {
+    display: block;
+    }
+
+/* END SVZ GOOGLE MAPS INFO WINDOW */
+
+/* BEGIN LOADER COMPONENT */
+
+.sg-loader,
+.sg-loader-holder,
+.sg-loader-underlay-holder {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.sg-loader-underlay-holder {
+background-color: #FFF;
+opacity: 0.2;
+z-index: 1001;
+}
+
+.sg-infowindow-load-tab-data-underlay-holder {
+opacity: 0.8;
+}
+
+ .sg-loader,
+ .sg-loader-holder {
+ background: transparent url('../../img/loading.gif') no-repeat center center;
+ z-index: 1002;
+ }
+
+   .sg-loader-holder .sg-loader-cancel {
+   position: absolute;
+   top: 20px;
+   left: 80px;
+   }
+
+/* Z-index of the map loader must be below the google maps controls so they still can be used */
+.map-holder .sg-loader-underlay-holder {
+z-index: 8;
+}
+
+	.map-holder .sg-loader,
+	.map-holder .sg-loader-holder {
+	z-index: 9;
+	}
+
+
+/* END LOADER COMPONENT */
